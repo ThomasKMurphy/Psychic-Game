@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Psychic Game</title>
+</head>
+
+<body>
+    <div id='gamedata'>
+        <h1>The Psychic Game</h1>
+        <h3>Guess What Letter I Am Thinking...</h3>
+        <p>Wins: </p>
+        <p>Losses: </p>
+        <p>Guesses Left: </p>
+        <p>Letters Guessed: </p>
+    </div>
+    <script type='text/javascript'>
+    var youWin = 0;
+    var youLose = 0;
+    var guessesLeft = 7;
+    var guessedLetters = [];
+    var letterChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+    var computerLetter = letterChoices[Math.floor(Math.random() * letterChoices.length)];
+
+    document.onkeyup = function(event) {
+
+        var userGuess = event.key;
+        guessedLetters.push(userGuess);
+
+        if (userGuess === computerLetter) {
+            youWin++;
+            guessesLeft = 7;
+            guessedLetters = [];
+            computerletter = letterChoices[Math.floor(Math.random() * letterChoices.length)]
+                // I need to print to the HTML the updated '#gamedata' after the user has selected a letter.
+
+
+        } else {
+            guessesLeft--;
+            // I need to print to the HTML updated game data that states the user has lost +1
+        }
+        if (guessesLeft === 0) {
+            youLose++;
+            guessesLeft = 7;
+            guessedLetters = [];
+            computerLetter = letterChoices[Math.floor(Math.random() * letterChoices.length)];
+        }
+
+    }
+    </script>
+</body>
+
+</html>
