@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-image: url('../images/psychicPic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#title {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 40px;
+  color: #1c114b;
+  text-shadow: 0 0 0.5em #51dfff, 0 0 0.5em #51dfff, 0 0 0.5em #51dfff;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 19px;
+  color: #1c114b;
+  text-shadow: 0 0 0.5em #51dfff, 0 0 0.5em #51dfff, 0 0 0.5em #51dfff;
+  margin-top: 0px;
+}
+
+p {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 15px;
+  color: #1c114b;
+  text-shadow: 0 0 0.5em #51dfff, 0 0 0.5em #51dfff, 0 0 0.5em #51dfff;
+}
