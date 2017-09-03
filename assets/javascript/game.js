@@ -28,7 +28,7 @@ updateGuessesLeft();
 
 document.onkeyup = function(event) {
   guessesLeft--;
-  var letter = String.fromCharCode(event.keyCode).toLowerCase();
+  var letter = String.fromCharCode(event.keyCode);
   guessedLetters.push(letter);
   updateGuessesLeft();
   updateGuessesSoFar();
