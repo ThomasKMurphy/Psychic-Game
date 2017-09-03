@@ -25,15 +25,15 @@ h5 {
 }
 
 p {
-  font-family: 'Bungee Inline', cursive;
-  font-size: 15px;
+  font-family: 'Baumans', cursive;
+  font-size: 18px;
   color: #1c114b;
   text-shadow: 0 0 0.5em #51dfff, 0 0 0.5em #51dfff, 0 0 0.5em #51dfff;
 }
 
 #guesses-so-far {
-  font-family: 'Bungee Inline', cursive;
-  font-size: 15px;
+  font-family: 'Baumans', cursive;
+  font-size: 17px;
   color: #1c114b;
   text-shadow: 0 0 0.5em #51dfff, 0 0 0.5em #51dfff, 0 0 0.5em #51dfff;
 }

@@ -12,7 +12,7 @@ var updateLetterToGuess = function() {
   letterToGuess = letters[Math.floor(Math.random() * letters.length)];
 };
 var updateGuessesSoFar = function() {
-  document.querySelector('#guesses-so-far').innerHTML = guessedLetters.join(', ');
+  document.querySelector('#guesses-so-far').innerHTML = guessedLetters.join(' | ');
 };
 
 var reset = function() {
