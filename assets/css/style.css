@@ -30,3 +30,10 @@ p {
   color: #1c114b;
   text-shadow: 0 0 0.5em #51dfff, 0 0 0.5em #51dfff, 0 0 0.5em #51dfff;
 }
+
+#guesses-so-far {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 15px;
+  color: #1c114b;
+  text-shadow: 0 0 0.5em #51dfff, 0 0 0.5em #51dfff, 0 0 0.5em #51dfff;
+}
